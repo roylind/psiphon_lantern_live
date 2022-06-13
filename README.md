@@ -1,41 +1,42 @@
 ## Description
 This is a Debian Live distribution for bypassing locks, an analogue of mofolinux, the difference is xfce4 instead of i3.
 ### Package List:
-Base System: ~~Ubuntu~~ Debian Latest
-~~MATE Desktop Environment~~
-~~Alacritty~~
-Bleachbit ✅
-~~Castero~~
-~~eCryptfs-utils~~
-Element Desktop ✅
-~~Freenet Installer~~
-~~i3 Window Manager~~
-~~i3ass~~
-~~IPFS-Desktop~~
-irssi ✅
-Kodi Media Center ✅
-**Lantern ✅**
-NextCloud ✅
-Newsboat ✅
-OnionShare ✅
-~~Openjdk-11-jre~~
-Outline-Client ✅ and Manager
-Proxychains ✅
-**Psiphon-Tunnel-Core Linux Client ✅**
-PulseEffects ✅
-Python 2✅
-Python 3✅
-Signal Desktop ✅
-Telegram-cli ✅
-Telegram-desktop ✅
-~~Telegram-purple~~
-Thunderbird ✅
-**Tor ✅**
-Torsocks ✅
-VeraCrypt ✅
-~~Vivaldi~~ Firefox-ESR
-W3M ✅
-Zathura ✅
+- Base System: ~~Ubuntu~~ Debian Latest
+- ~~MATE Desktop Environment~~
+- ~~Alacritty~~
+- Bleachbit ✅
+- ~~Castero~~
+- ~~eCryptfs-utils~~
+- Element Desktop ✅
+- ~~Freenet Installer~~
+- ~~i3 Window Manager~~
+- ~~i3ass~~
+- ~~IPFS-Desktop~~
+- irssi ✅
+- Kodi Media Center ✅
+- **Lantern ✅**
+- NextCloud ✅
+- Newsboat ✅
+- OnionShare ✅
+- ~~Openjdk-11-jre~~
+- Outline-Client ✅ and Manager
+- Proxychains ✅
+- **Psiphon-Tunnel-Core Linux Client ✅**
+- PulseEffects ✅
+- Python 2✅
+- Python 3✅
+- Signal Desktop ✅
+- Telegram-cli ✅
+- Telegram-desktop ✅
+- ~~Telegram-purple~~
+- Thunderbird ✅
+- **Tor ✅**
+- Torsocks ✅
+- VeraCrypt ✅
+- ~~Vivaldi~~ Firefox-ESR
+- W3M ✅
+- Zathura ✅
+
 ## How to use.
 Lantern or Psyphon must be running.
 Next, in the browser settings, specify the local proxy.
