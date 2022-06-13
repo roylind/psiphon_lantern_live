@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Psiphon
+Exec=x-terminal-emulator -e "/usr/bin/psiphon-tunnel-core -config /etc/psiphon.config"
+

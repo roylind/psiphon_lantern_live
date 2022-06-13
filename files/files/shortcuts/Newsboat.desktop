@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Newsboat
+Exec=x-terminal-emulator -e "newsboat"
+

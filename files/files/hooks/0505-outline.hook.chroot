@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+wget https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage -O /usr/bin/Outline-Manager.AppImage
+chown 0:0 /usr/bin/Outline-Manager.AppImage
+chmod 755 /usr/bin/Outline-Manager.AppImage
+
+wget https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage -O /usr/bin/Outline-Client.AppImage
+chown 0:0 /usr/bin/Outline-Client.AppImage
+chmod 755 /usr/bin/Outline-Client.AppImage

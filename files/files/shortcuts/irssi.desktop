@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=irssi
+Exec=x-terminal-emulator -e "irssi"
+

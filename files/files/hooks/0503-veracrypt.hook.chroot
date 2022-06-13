@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+export VERACRYPTURL=$(wget -q "https://www.veracrypt.fr/en/Downloads.html" -O- | grep "$(lsb_release -is)-$(lsb_release -rs)-amd64.deb\"" | grep -v "veracrypt-console" | cut -d'"' -f2)
+wget ${VERACRYPTURL//&#43;/+} -O /tmp/veracrypt.deb;
+gdebi -n /tmp/veracrypt.deb
+rm /tmp/veracrypt.deb
+

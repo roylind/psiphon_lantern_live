@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+wget 'https://getlantern.org/lantern-installer-64-bit.deb' -O /tmp/lantern-installer-64-bit.deb;
+gdebi -n /tmp/lantern-installer-64-bit.deb
+rm /tmp/lantern-installer-64-bit.deb
+
+echo "deb http://deb.debian.org/debian/ buster main" > /etc/apt/sources.list.d/buster.list
+echo "deb-src http://deb.debian.org/debian/ buster main" >> /etc/apt/sources.list.d/buster.list
+apt update
+apt install -y libappindicator3-1

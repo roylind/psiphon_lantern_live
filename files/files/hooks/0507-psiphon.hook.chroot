@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+wget https://raw.githubusercontent.com/Psiphon-Labs/psiphon-tunnel-core-binaries/master/linux/psiphon-tunnel-core-x86_64 -O /usr/bin/psiphon-tunnel-core
+chown 0:0 /usr/bin/psiphon-tunnel-core
+chmod 755 /usr/bin/psiphon-tunnel-core
